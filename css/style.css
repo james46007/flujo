@@ -138,8 +138,8 @@
     --light-purple: #F6F4FE;
     --purple: #FBD800;
     --bg-purple: #FBD800;
-    --dark-purple: #32236F;
-    --body-text-purple: #3E3F66;
+    --dark-purple: #3774EB;
+    --body-text-purple: #5BC1EE;
     --text-white: #ffffff;
     --bg-white: #ffffff;
     --slider-dots-color: #D4D2DD;
@@ -409,7 +409,7 @@ header.fix_style {
     position: fixed;
     top: 0;
     backdrop-filter: blur(5px);
-    background-color: rgb(25, 48, 76);
+    background-color: rgb(251, 216, 0);
     padding: 15px 0;
     transition: none;
     opacity: 0;
