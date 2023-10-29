@@ -822,13 +822,13 @@ header.fixed .navbar {
 }
 
 .trusted_section .company_logos img {
-    filter: grayscale(1);
+    /*filter: grayscale(1);*/
     margin: 0 auto;
     transition: .4s all;
 }
 
 .trusted_section .company_logos img:hover {
-    filter: grayscale(0);
+    /*filter: grayscale(0);*/
 }
 
 
