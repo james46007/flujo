@@ -782,24 +782,61 @@ header.fixed .navbar {
 
 
 /* hero banner shape animation */
-.banner_section .banner_shape1, .banner_shape2, .banner_shape3 { 
+.banner_section .banner_shape1, .banner_shape2, .banner_shape3, .banner_shape4, .banner_shape5, .banner_shape6
+, .banner_shape7, .banner_shape8, .banner_shape9 {
     position: absolute; }
 
 .banner_section .banner_shape1 {
-    top: 200px;
-    left: -15%;
+    top: 0px;
+    left: -20%;
     animation: mymove 10s infinite;
 }
 
 .banner_section .banner_shape2 {
-    top: 100px;
-    right: -10%;
+    top: 40px;
+    left: 45%;
     animation: mymove 5s infinite;
 }
 
 .banner_section .banner_shape3 {
+    top: 0px;
+    left: 115%;
+    animation: mymove 3s infinite;
+}
+
+.banner_section .banner_shape4 {
+    top: 200px;
+    left: -5%;
+    animation: mymove 10s infinite;
+}
+
+.banner_section .banner_shape5 {
+    top: 240px;
+    left: 40%;
+    animation: mymove 5s infinite;
+}
+
+.banner_section .banner_shape6 {
+    top: 200px;
+    left: 105%;
+    animation: mymove 3s infinite;
+}
+
+.banner_section .banner_shape7 {
     top: 400px;
-    right: -20%;
+    left: -15%;
+    animation: mymove 10s infinite;
+}
+
+.banner_section .banner_shape8 {
+    top: 440px;
+    left: 50%;
+    animation: mymove 5s infinite;
+}
+
+.banner_section .banner_shape9 {
+    top: 400px;
+    left: 110%;
     animation: mymove 3s infinite;
 }
 
@@ -853,7 +890,7 @@ header.fixed .navbar {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -75px;
+    top: 150px;
 }
 
 .features_section .feature_detail .feature_img img {
